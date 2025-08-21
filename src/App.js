@@ -3,7 +3,7 @@ import styles from "./styles.module.css";
 import Table from "./Table";
 
 function App() {
-  const [name, setName] = useState(""); //basic fields
+  const [name, setName] = useState("");
   const [marks, setMarks] = useState("");
   const [result, setResult] = useState([]);
 
@@ -60,7 +60,6 @@ function App() {
       <div className={styles.container}>
         {/* Form */}
         <form className={styles.form} onSubmit={handleSubmit}>
-          <h3>Enter Student Details</h3>
           <input
             className={styles.input}
             type="text"
