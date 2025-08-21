@@ -24,7 +24,7 @@
 
 /* Form */
 .form {
-  background: #ffffff;
+  background: #863131;
   border-radius: 12px;
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
   padding: 30px;
@@ -37,7 +37,7 @@
 
 .input {
   padding: 12px 15px;
-  border: 1px solid #ddd;
+  border: 2px solid #ddd;
   border-radius: 8px;
   font-size: 15px;
   transition: all 0.3s ease;
