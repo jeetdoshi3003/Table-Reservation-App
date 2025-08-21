@@ -60,6 +60,7 @@ function App() {
       <div className={styles.container}>
         {/* Form */}
         <form className={styles.form} onSubmit={handleSubmit}>
+          <h3>Enter Students Data</h3>
           <input
             className={styles.input}
             type="text"
